@@ -184,7 +184,7 @@ sudo systemctl start mylocation.service
 sudo systemctl enable mylocation.service
 ```
 
-### 10. 夜間ブランクスクリーンの設定
+## 10. 夜間ブランクスクリーンの設定
 
 - スクリーンセーバーの有効化／無効化用スクリプト[saveron.sh](saveron.sh)，[saveroff.sh](saveroff.sh)に実行属性を付与する。
 ```
@@ -205,7 +205,7 @@ XAUTHORITY=/home/arumami88/.Xauthority
 ```
 ※例は夜23時にスクリーンセーバーを有効化し，朝5時に無効化する。
 
-### 11. 完成
+## 11. 完成
 
 - HDMIで作業をしていたら3.5インチモニタに表示を切り替える。
 - 電源を切り，不要なマウス・キーボードを外す。（入力デバイスが変更されないか注意）
