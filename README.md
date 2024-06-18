@@ -218,6 +218,6 @@ XAUTHORITY=/home/arumami88/.Xauthority
 
 ## 参考
 
-- 所在表示用の画像には [ICOON MONO](https://icooon-mono.com/) さんのアイコンを使用させていただきました。
+- 所在表示用の画像には [ICOON MONO](https://icooon-mono.com/) さんのアイコンを使用して作成させていただきました。
 
 - 作成には [uepon日々の備忘録 【RaspberryPi】WEBサイネージ化してみる（縦向きモニタ編）](https://uepon.hatenadiary.com/entry/2021/03/11/004116) などを参考にさせていただきました。
