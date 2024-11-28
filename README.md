@@ -78,10 +78,11 @@ ls /dev/input
 ```
 sudo pip3 install evdev
 ```
-### 動作確認用のテストコード（接続デバイスが **/dev/input/event0** の例）[buttontest.py](buttontest.py)
+#### 動作確認用のテストコード（接続デバイスが **/dev/input/event0** の例）[buttontest.py](buttontest.py)
 
 ```
 import evdev
+
 device = evdev.InputDevice('/dev/input/event0')
 for event in device.read_loop():
 	if event.type == evdev.ecodes.EV_KEY:
