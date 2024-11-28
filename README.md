@@ -78,7 +78,7 @@ ls /dev/input
 ```
 sudo pip3 install evdev
 ```
-#### 動作確認用のテストコード（接続デバイスが **/dev/input/event0** の例）[buttontest.py](buttontest.py)
+### 動作確認用のテストコード（接続デバイスが **/dev/input/event0** の例）[buttontest.py](buttontest.py)
 
 ```
 import evdev
